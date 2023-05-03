@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #1F2937;
+    color: white;
+}
+
+.nav-bar{
+    color: #E5E7EB;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right:40px;
+    /*FLEX*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar nav{
+    display: flex;
+    gap: 20px;    
+}
+
+.nav-bar nav a{
+text-decoration: none;
+color: white;
+padding: 5px;
+}
+
+.nav-bar nav a:hover{
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+header .logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+
+}
