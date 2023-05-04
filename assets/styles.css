@@ -37,7 +37,7 @@ padding: 5px;
 }
 
 .nav-bar nav a:hover{
-    background-color: rgba(255, 255, 255, 0.24);
+    color: #3882F6;
 }
 
 header .logo{
@@ -82,18 +82,17 @@ header .logo{
 }
 
 .hero-banner .left-hero .header-button{
-    border: none;
-    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    background-color: transparent;
     color: #E5E7EB;
     height: 40px;
     width: 160px;
     text-align: center;
-    text-decoration: none;
+    font-weight: 400;
     font-size: 16px;
-    font-weight: 600;
     cursor: pointer;
     border-radius: 4px;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
     /*FLEX*/
     display: flex;
     justify-content: center;
@@ -101,14 +100,15 @@ header .logo{
 }
 
 .hero-banner .left-hero .header-button:hover{
-    background-color: #3d3d3d;
+    background-color:  #3882F6;
 }
 
 .hero-banner .image{
-    background-color: #696969;
+    background-color:  hsl(209, 8%, 45%);
     color: #dcdddf;
     width: 500px;
     height: 250px;
+    font-size: 18px;
     /*FLEX*/
     display:flex;
     justify-content: center;
@@ -143,6 +143,8 @@ section .info h2{
 
 .widget{
     text-align: center;
+    font-weight: 500;
+    color: rgb(88, 88, 88);
     /*FLEX*/
     display: flex;
     flex-direction: column;
