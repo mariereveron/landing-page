@@ -82,13 +82,13 @@ header .logo{
 }
 
 .hero-banner .left-hero .header-button{
-    border: 1px solid #3882F6;
-    background-color: transparent;
+    border: none;
+    background-color: #3882F6;
     color: #E5E7EB;
     height: 40px;
     width: 160px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     cursor: pointer;
     border-radius: 4px;
@@ -100,7 +100,7 @@ header .logo{
 }
 
 .hero-banner .left-hero .header-button:hover{
-    background-color:  #3882F6;
+    background-color:  #1450b1;
 }
 
 .hero-banner .image{
@@ -187,7 +187,7 @@ section .quote{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .quote-container span{
@@ -196,4 +196,57 @@ section .quote{
     color: #1F2937;
     display: flex;
     align-self: flex-end;
+}
+
+.CTA {
+    display: flex;
+    justify-items: center;
+    padding: 50px;
+}
+
+.cta-container{
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 1000px;
+    height: 150px;;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right:90px;
+    padding-left:90px;
+    /*FLEX*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-container .cta-text{
+    color: #E5E7EB;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cta-container .cta-text h3{
+    font-size: 24px;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+
+.cta-container .cta-button{
+    background-color: transparent;
+    color: #E5E7EB;
+    font-weight: 700;
+    font-size: 16px;
+    border: 2px solid #E5E7EB;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.cta-container .cta-button:hover{
+    background-color: #E5E7EB;
+    color: #3882F6;
+    border: none;
 }
