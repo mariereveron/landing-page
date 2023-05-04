@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Montserrat', Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 header{
@@ -11,10 +13,10 @@ header{
 
 .nav-bar{
     color: #E5E7EB;
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 10px;
-    padding-left: 40px;
-    padding-right:40px;
+    padding-left: 160px;
+    padding-right:160px;
     /*FLEX*/
     display: flex;
     justify-content: space-between;
@@ -37,8 +39,77 @@ padding: 5px;
 }
 
 header .logo{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
 
 }
+
+.hero-banner{
+    padding: 80px;
+    height: 500px;
+    /*FLEX*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+
+.hero-banner .left-hero{
+    width: 500px;
+    /*FLEX*/
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-banner .left-hero h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 0.9; 
+}
+
+.hero-banner .left-hero p{
+    text-align: left;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.hero-banner .left-hero .header-button{
+    border: none;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+    /*FLEX*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner .left-hero .header-button:hover{
+    background-color: #bac2cf;
+}
+
+.hero-banner .image{
+    background-color: #696969;
+    color: #dcdddf;
+    width: 500px;
+    height: 250px;
+    /*FLEX*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
