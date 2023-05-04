@@ -73,6 +73,7 @@ header .logo{
 .hero-banner .left-hero p{
     text-align: left;
     font-size: 18px;
+    font-weight: 300;
     color: #E5E7EB;
     margin-bottom: 20px;
     width: 400px;
@@ -83,11 +84,11 @@ header .logo{
     background-color: #3882F6;
     color: #E5E7EB;
     height: 40px;
-    width: 120px;
+    width: 140px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
     cursor: pointer;
     border-radius: 4px;
     transition: background-color 0.3s ease-in-out;
@@ -98,7 +99,7 @@ header .logo{
 }
 
 .hero-banner .left-hero .header-button:hover{
-    background-color: #bac2cf;
+    background-color: #3d3d3d;
 }
 
 .hero-banner .image{
