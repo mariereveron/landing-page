@@ -199,9 +199,10 @@ section .quote{
 }
 
 .CTA {
+    padding: 50px;
+    /*FLEX*/
     display: flex;
     justify-items: center;
-    padding: 50px;
 }
 
 .cta-container{
@@ -249,4 +250,18 @@ section .quote{
     background-color: #E5E7EB;
     color: #3882F6;
     border: none;
+}
+
+/*FOOTER*/
+
+footer{
+background-color: #1F2937;
+height: 100px;
+color: white;
+font-weight: 500;
+/*FLEX*/
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
